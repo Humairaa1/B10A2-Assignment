@@ -1,4 +1,12 @@
 @media screen and (max-width:450px) {
+
+    /* shared style  */
+    .title {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
     .nav-item{
         display: none;
     }
@@ -7,7 +15,8 @@
         margin-left: 100px;
         
     }
-    .banner-section{
+    .banner-section,
+    .habit-card-container{
         flex-direction: column;
     }
     .banner-container{
@@ -17,6 +26,13 @@
     }
     .banner-title{
         font-size: 36px;
+    }
+/* change your habit section */
+    .habit-heading {
+        width: 100%;
+    }
+    .habit-section {
+        margin-top: 50px;
     }
     
 }
