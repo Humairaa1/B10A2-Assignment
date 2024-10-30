@@ -65,7 +65,8 @@
     .run-title-container {
         padding: 20px;
     }
-    .run-img{
+
+    .run-img {
         width: 100%;
         height: 100%;
     }
@@ -75,14 +76,37 @@
     .bmi-section {
         margin-top: 50px;
     }
-    .bmi-title-container{
-        width: 90%;  
+
+    .bmi-title-container {
+        width: 90%;
     }
-    .bmi-container{
+
+    .bmi-container {
         gap: 30px;
     }
+
     .bmi-section-box {
         margin-top: 30px;
+    }
+
+    /* our-team-section */
+    .our-team-section {
+        margin-top: 50px;
+    }
+
+    .out-team-title {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .trainer-card-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .tainer-img {
+        width: 100%;
+        height: 100%;
     }
 
 }
