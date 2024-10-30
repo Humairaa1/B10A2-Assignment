@@ -1,5 +1,153 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* shared style  */
 *{
     font-family: "Inter", sans-serif;      
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;    
+}
+.subtitle{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    }
+.button-primary{
+    border-radius: 20px;
+background: rgb(230, 83, 60);
+color: white;
+font-weight: 600;
+padding: 8px 15px;
+border: none;
+}
+
+/* nav style here  */
+nav{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.nav-title{
+    color: rgb(230, 83, 60);
+font-size: 32px;
+font-weight: 800;
+}
+
+.nav-item {
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 10px 15px;
+    gap: 40px;
+    margin-left: 600px;
+}
+.nav-item li{
+    color: rgb(255, 255, 255);
+font-size: 16px;
+list-style: none;
+}
+.nav-item li:hover{
+    background-color: rgb(230, 83, 60);
+    border-radius: 20px;
+    padding: 5px ;
+    font-size: 14px;
+}
+
+.menu-icon{
+    color: white;
+    visibility: hidden;
+}
+
+/* Banner style start here  */
+.banner-section{
+    display: flex;
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+}
+.banner-container{
+    width: 50%;
+    margin-top: 100px;
+
+}
+.banner-title{
+    color: white;
+    font-size: 78px;
+font-weight: 900;
+margin-bottom: 20px;
+}
+.shape{
+    font-family: "Dancing Script", serif;
+}
+.button-download{
+background-color: black;
+border: 1px solid white;
+border-radius: 20px;
+color: white;
+font-weight: 600;
+padding: 8px 15px;
+}
+.button-container{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.five-hundred{
+    color: white;
+    font-size: 32px;
+font-weight: 900;
+}
+.box-title{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.banner-box{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    width: 100px;
+}
+.red-circle{
+    background: rgb(230, 83, 60);
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+.three-fifty{
+    font-size: 18px;
+font-weight: 900;
+color: white;
+}
+.video-box{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    left: -50px;
+    bottom: 80px;
+}
+.workout-box{
+    position: absolute;
+    top: 140px;
+    left: 220px;
+    /* bottom: -100px; */
+}
+.banner-img{
+    width: 100%;
+}
+.banner-img-container{
+    position: relative;
+
 }
