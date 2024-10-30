@@ -19,7 +19,8 @@
 
     .banner-section,
     .habit-card-container,
-    .run-extra-container {
+    .run-extra-container,
+    .bmi-container {
         flex-direction: column;
     }
 
@@ -52,6 +53,7 @@
         margin-top: 50px;
     }
 
+    /* .run-extra-section  */
     .run-extra-section {
         margin-top: 50px;
     }
@@ -62,6 +64,25 @@
 
     .run-title-container {
         padding: 20px;
+    }
+    .run-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* .bmi-section */
+
+    .bmi-section {
+        margin-top: 50px;
+    }
+    .bmi-title-container{
+        width: 90%;  
+    }
+    .bmi-container{
+        gap: 30px;
+    }
+    .bmi-section-box {
+        margin-top: 30px;
     }
 
 }

@@ -215,28 +215,101 @@ nav {
 
 /* run-extra-section  */
 
-.run-extra-section{  
+.run-extra-section {
     width: 80%;
     margin: auto;
-    margin-top: 100px; 
+    margin-top: 100px;
     background-color: rgb(34, 34, 34);
     border-radius: 10px;
 }
-.run-extra-container{
+
+.run-extra-container {
     display: flex;
     gap: 100px;
 }
-.run-img{
+
+.run-img {
     width: 350px;
     height: 300px;
     border-radius: 10px;
 }
-.run-img-container{
+
+.run-img-container {
     padding: 30px;
 }
-.run-title-container{
+
+.run-title-container {
     padding: 50px;
 }
-.join-now-btn{
+
+.join-now-btn {
     margin-top: 20px;
+}
+
+/* bmi-section */
+.bmi-section{
+    margin-top: 100px;
+}
+.bmi-title-container{
+    width: 40%;
+    margin: auto;
+    
+}
+.bmi-section-box {
+    background-color: rgb(34, 34, 34);
+    margin-top: 80px;
+}
+.bmi-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 150px;
+    padding: 50px 0;
+}
+.bmi-title {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+table,
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+}
+
+th {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+}
+input{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+border: none;
+height: 48px;
+width: 50%;
+margin-top: 10px;
+padding-left: 10px;
+}
+.input-style{
+    width: 100%;
+}
+.input-flex{
+display: flex;
+gap: 10px;
+}
+.input-container{
+    margin: 20px 0;
 }
