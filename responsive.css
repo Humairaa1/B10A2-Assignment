@@ -7,32 +7,61 @@
         margin-bottom: 10px;
     }
 
-    .nav-item{
+    .nav-item {
         display: none;
     }
-    .menu-icon{
+
+    .menu-icon {
         visibility: visible;
         margin-left: 100px;
-        
+
     }
+
     .banner-section,
-    .habit-card-container{
+    .habit-card-container,
+    .run-extra-container {
         flex-direction: column;
     }
-    .banner-container{
+
+    .banner-container {
         width: 100%;
         margin-top: 20px;
-    
+
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 36px;
     }
-/* change your habit section */
+
+    .video-box {
+        left: -30px;
+    }
+
+    .workout-box {
+        position: absolute;
+        top: 140px;
+        left: 200px;
+    }
+
+    /* change your habit section */
     .habit-heading {
         width: 100%;
     }
+
     .habit-section {
         margin-top: 50px;
     }
-    
+
+    .run-extra-section {
+        margin-top: 50px;
+    }
+
+    .run-extra-container {
+        gap: 20px;
+    }
+
+    .run-title-container {
+        padding: 20px;
+    }
+
 }
