@@ -21,7 +21,8 @@
     .habit-card-container,
     .run-extra-container,
     .bmi-container,
-    .footer-container-flex {
+    .footer-container-flex,
+    .review-container {
         flex-direction: column;
     }
 
@@ -109,6 +110,22 @@
         width: 100%;
         height: 100%;
     }
+
+    /* customer-review-section */
+.customer-review-section{
+    margin-top: 50px;
+}
+
+.review-container{
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+iframe{
+    width: 250px;
+    height: 250px;
+}
 
     /* footer-section */
 .footer-section{
