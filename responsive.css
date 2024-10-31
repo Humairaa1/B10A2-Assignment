@@ -20,7 +20,8 @@
     .banner-section,
     .habit-card-container,
     .run-extra-container,
-    .bmi-container {
+    .bmi-container,
+    .footer-container-flex {
         flex-direction: column;
     }
 
@@ -108,5 +109,17 @@
         width: 100%;
         height: 100%;
     }
+
+    /* footer-section */
+.footer-section{
+    margin-top: 40px;
+}
+.footer-container-flex{  
+    padding-top: 20px;
+    gap: 30px;
+}
+.footer-title-container{
+    width: 100%;
+}
 
 }
